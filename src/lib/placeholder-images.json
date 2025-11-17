@@ -1,0 +1,52 @@
+{
+  "placeholderImages": [
+    {
+      "id": "hero-background",
+      "description": "Abstract blue and green background representing healthcare and innovation.",
+      "imageUrl": "https://images.unsplash.com/photo-1579684256060-d5a308109e21?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxhYnN0cmFjdCUyMGxhYm9yYXRvcnl8ZW58MHx8fHwxNzYzMjc2OTY2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "abstract laboratory"
+    },
+    {
+      "id": "about-us-image",
+      "description": "Image of a modern pharmaceutical research lab.",
+      "imageUrl": "https://images.unsplash.com/photo-1599652749620-e45b7f38988e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8cmVzZWFyY2glMjBsYWJ8ZW58MHx8fHwxNzYzMjE5MDU5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "research lab"
+    },
+    {
+      "id": "product-tablet",
+      "description": "Close-up of pharmaceutical tablets.",
+      "imageUrl": "https://images.unsplash.com/photo-1587854680352-936b22b91030?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8cGlsbHN8ZW58MHx8fHwxNzYzMzE5MTY1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "pills"
+    },
+    {
+      "id": "product-capsule",
+      "description": "Close-up of pharmaceutical capsules.",
+      "imageUrl": "https://images.unsplash.com/photo-1702353531290-8fe0bfbf2732?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxjYXBzdWxlc3xlbnwwfHx8fDE3NjMzMTkxNjR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "capsules"
+    },
+    {
+      "id": "product-syrup",
+      "description": "Bottle of liquid medicine.",
+      "imageUrl": "https://images.unsplash.com/photo-1562243061-204550d8a2c9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxtZWRpY2luZSUyMGJvdHRsZXxlbnwwfHx8fDE3NjMyMjAzMjN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "medicine bottle"
+    },
+    {
+      "id": "quality-control",
+      "description": "Scientist working in a quality control lab.",
+      "imageUrl": "https://images.unsplash.com/photo-1742206594477-15139139c0df?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxzY2llbnRpc3QlMjBtaWNyb3Njb3BlfGVufDB8fHx8MTc2MzMxOTE2NHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "scientist microscope"
+    },
+    {
+      "id": "career-team",
+      "description": "Diverse group of professionals in a meeting.",
+      "imageUrl": "https://images.unsplash.com/photo-1603201667141-5a2d4c673378?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxvZmZpY2UlMjB0ZWFtfGVufDB8fHx8MTc2MzIzNzc2MHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "office team"
+    },
+    {
+      "id": "contact-map",
+      "description": "Stylized map pointing to Nagpur, Maharashtra.",
+      "imageUrl": "https://images.unsplash.com/photo-1532154078493-c1c3eef2023c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxtYXAlMjBsb2NhdGlvbnxlbnwwfHx8fDE3NjMyODkyMzh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "map location"
+    }
+  ]
+}
