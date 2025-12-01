@@ -1,0 +1,83 @@
+
+rules_version = '2';
+
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    /**
+     * Helper function to check if a user is authenticated.
+     * This is used to restrict write access to logged-in administrators.
+     */
+    function isSignedIn() {
+      return request.auth != null;
+    }
+
+    /**
+     * @description Controls access to the product categories collection.
+     * - Anyone can read the list of categories.
+     * - Only authenticated users (admins) can create, update, or delete categories.
+     */
+    match /productCategories/{categoryId} {
+      allow read: if true;
+      allow write: if isSignedIn();
+    }
+
+    /**
+     * @description Controls access to the products collection.
+     * - Anyone can read the list of products and individual product details.
+     * - Only authenticated users (admins) can create, update, or delete products.
+     */
+    match /products/{productId} {
+      allow read: if true;
+      allow write: if isSignedIn();
+    }
+
+    /**
+     * @description Controls access to the blogs collection.
+     * - Anyone can read the list of blog posts and individual posts.
+     * - Only authenticated users (admins) can create, update, or delete posts.
+     */
+    match /blogs/{blogId} {
+      allow read: if true;
+      allow write: if isSignedIn();
+    }
+
+    /**
+     * @description Controls access to singleton page content documents.
+     * - Anyone can read the content for pages like 'About', 'Home', etc.
+     * - Only authenticated users (admins) can modify the page content.
+     */
+    match /pages/{pageId} {
+      allow get: if true;
+      allow write: if isSignedIn();
+    }
+
+    /**
+     * @description Controls access to the admin panel settings.
+     * - Only authenticated users (admins) can read or modify the settings.
+     */
+    match /settings/admin {
+        allow read, write: if isSignedIn();
+    }
+
+    /**
+     * @description Controls access to the public website settings.
+     * - Anyone can read the website settings (e.g., logo, public nav links).
+     * - Only authenticated users (admins) can modify the settings.
+     */
+    match /settings/website {
+      allow get: if true;
+      allow write: if isSignedIn();
+    }
+
+    /**
+     * @description Controls access to the public website footer settings.
+     * - Anyone can read the website footer settings.
+     * - Only authenticated users (admins) can modify the settings.
+     */
+    match /settings/footer {
+      allow get: if true;
+      allow write: if isSignedIn();
+    }
+  }
+}

@@ -1,0 +1,40 @@
+diff --git a/node_modules/react-quill/lib/component.js b/node_modules/react-quill/lib/component.js
+index 9e578a6..fc2a297 100644
+--- a/node_modules/react-quill/lib/component.js
++++ b/node_modules/react-quill/lib/component.js
+@@ -1,5 +1,5 @@
+ 'use strict';
+-var ReactDOM = require('react-dom');
++var ReactDOM = require('react-dom/client');
+ var Quill = require('quill');
+ var QuillDelta = require('quill-delta');
+ var PropTypes = require('prop-types');
+@@ -321,7 +321,11 @@
+ 	},
+ 
+ 	getEditor: function() {
+-		return this.quill;
++		if (!this.quill) {
++			this.quill = this.createEditor(this.getEditingArea(), this.getEditorConfig());
++			this.setEditorContents(this.quill, this.state.value);
++		}
++		return this.quill
+ 	},
+ 
+ 	getEditingArea: function() {
+@@ -329,7 +333,14 @@
+ 		 * that we can pass it to Quill.
+ 		 */
+ 		// eslint-disable-next-line react/no-find-dom-node
+-		return ReactDOM.findDOMNode(this.editingArea);
++		//return ReactDOM.findDOMNode(this.editingArea);
++		if (!this.editingArea) {
++			const element = document.createElement('div');
++			this.editingArea = {
++				current: element
++			}
++		}
++		return this.editingArea.current
+ 	},
+ 
+ 	/*

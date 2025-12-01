@@ -28,8 +28,24 @@ const nextConfig: NextConfig = {
         port: '',
         pathname: '/**',
       },
+      {
+        protocol: 'https',
+        hostname: 'storage.googleapis.com',
+        port: '',
+        pathname: '/**',
+      },
+      {
+        protocol: 'https',
+        hostname: 'images.pexels.com',
+        port: '',
+        pathname: '/**',
+      }
     ],
   },
+  env: {
+    NEXT_PUBLIC_ADMIN_EMAIL: process.env.ADMIN_EMAIL,
+    NEXT_PUBLIC_ADMIN_PASSWORD: process.env.ADMIN_PASSWORD,
+  }
 };
 
 export default nextConfig;

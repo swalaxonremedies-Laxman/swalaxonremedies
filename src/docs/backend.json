@@ -1,0 +1,230 @@
+
+{
+  "entities": {
+    "ProductCategory": {
+      "title": "Product Category",
+      "type": "object",
+      "description": "Represents a category for products.",
+      "properties": {
+        "name": { "type": "string", "description": "The name of the category." }
+      },
+      "required": ["name"]
+    },
+    "Product": {
+      "title": "Product",
+      "type": "object",
+      "description": "Represents a raw material product offered by Swalaxon Trade Hub.",
+      "properties": {
+        "name": { "type": "string", "description": "The name of the product (e.g., API-123)." },
+        "slug": { "type": "string", "description": "URL-friendly version of the product name." },
+        "description": { "type": "string", "description": "Detailed description of the product, including specifications and applications." },
+        "category": { "type": "string", "description": "Category of the raw material (e.g., API, Excipient)." },
+        "specifications": { "type": "string", "description": "Technical specifications of the product." },
+        "applications": { "type": "string", "description": "Typical applications of the product." },
+        "imageUrl": { "type": "string", "description": "URL of the product image.", "format": "uri" },
+        "imageEffect": { 
+          "type": "string", 
+          "description": "The display effect for the product image.",
+          "enum": ["center-fill", "blur-background", "solid-background"]
+        }
+      },
+      "required": ["name", "slug", "description", "category", "specifications", "applications"]
+    },
+    "BlogPost": {
+        "title": "Blog Post",
+        "type": "object",
+        "description": "Represents a single blog post.",
+        "properties": {
+            "title": { "type": "string" },
+            "slug": { "type": "string" },
+            "date": { "type": "string", "format": "date-time" },
+            "author": { "type": "string" },
+            "category": { "type": "string" },
+            "summary": { "type": "string" },
+            "content": { "type": "string", "description": "The full HTML content of the blog post." },
+            "imageUrl": { "type": "string" }
+        },
+        "required": ["title", "slug", "date", "author", "category", "summary", "content"]
+    },
+    "AdminSettings": {
+      "title": "Admin Settings",
+      "type": "object",
+      "description": "Settings for the admin panel, including brand name, logo, and navigation links.",
+      "properties": {
+        "brandName": { "type": "string", "description": "The brand name displayed in the admin panel." },
+        "logoUrl": { "type": "string", "description": "URL of the logo for the admin panel." },
+        "navLinks": {
+          "type": "array",
+          "description": "List of navigation links in the admin sidebar.",
+          "items": {
+            "type": "object",
+            "properties": {
+              "href": { "type": "string" },
+              "label": { "type": "string" },
+              "icon": { "type": "string" },
+              "visible": { "type": "boolean" }
+            },
+            "required": ["href", "label", "icon", "visible"]
+          }
+        }
+      },
+       "required": ["brandName", "navLinks"]
+    },
+     "WebsiteSettings": {
+      "title": "Website Settings",
+      "type": "object",
+      "description": "Settings for the public website, including brand name, logo, and header navigation links.",
+      "properties": {
+        "brandName": { "type": "string", "description": "The brand name displayed in the website header." },
+        "logoType": { "type": "string", "enum": ["svg", "url"], "description": "Determines whether to use SVG code or a URL for the logo." },
+        "logoSvg": { "type": "string", "description": "The raw SVG code for the logo." },
+        "logoUrl": { "type": "string", "description": "The URL for the logo image." },
+        "navLinks": {
+          "type": "array",
+          "description": "List of navigation links in the website header.",
+          "items": {
+            "type": "object",
+            "properties": {
+              "href": { "type": "string" },
+              "label": { "type": "string" }
+            },
+            "required": ["href", "label"]
+          }
+        }
+      },
+      "required": ["brandName", "navLinks"]
+    },
+    "FooterSettings": {
+      "title": "Footer Settings",
+      "type": "object",
+      "description": "Settings for the public website footer.",
+      "properties": {
+        "brandName": { "type": "string" },
+        "description": { "type": "string" },
+        "ctaLabel": { "type": "string" },
+        "ctaHref": { "type": "string" },
+        "quickLinksTitle": { "type": "string" },
+        "quickLinks": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": { "href": { "type": "string" }, "label": { "type": "string" } },
+            "required": ["href", "label"]
+          }
+        },
+        "contactInfoTitle": { "type": "string" },
+        "address": { "type": "string" },
+        "email": { "type": "string", "format": "email" },
+        "phone": { "type": "string" },
+        "copyright": { "type": "string" }
+      },
+      "required": ["brandName", "description", "copyright"]
+    },
+    "AboutPageContent": {
+      "title": "About Page Content",
+      "type": "object",
+      "description": "Content for the About Us page.",
+      "properties": {
+        "title": { "type": "string" }, "subtitle": { "type": "string" }, "lead": { "type": "string" },
+        "mission": { "type": "string" }, "vision": { "type": "string" }, "closing": { "type": "string" },
+        "imageUrl": { "type": "string", "format": "uri" },
+        "values": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": { "title": { "type": "string" }, "description": { "type": "string" } },
+            "required": ["title", "description"]
+          }
+        }
+      }
+    },
+    "QualityPageContent": {
+        "title": "Quality Page Content", "type": "object", "description": "Content for the Quality page.",
+        "properties": {
+            "title": { "type": "string" }, "subtitle": { "type": "string" }, "lead": { "type": "string" },
+            "frameworkTitle": { "type": "string" }, "frameworkDescription": { "type": "string" },
+            "closing": { "type": "string" }, "imageUrl": { "type": "string", "format": "uri" },
+            "points": {
+                "type": "array",
+                "items": {
+                    "type": "object",
+                    "properties": { "title": { "type": "string" }, "description": { "type": "string" } },
+                    "required": ["title", "description"]
+                }
+            }
+        }
+    },
+    "ServicesPageContent": {
+        "title": "Services Page Content", "type": "object", "description": "Content for the Services page.",
+        "properties": {
+            "title": { "type": "string" }, "subtitle": { "type": "string" }, "lead": { "type": "string" },
+            "imageUrl": { "type": "string", "format": "uri" },
+            "services": {
+                "type": "array",
+                "items": {
+                    "type": "object",
+                    "properties": { "title": { "type": "string" }, "description": { "type": "string" } },
+                    "required": ["title", "description"]
+                }
+            }
+        }
+    },
+    "HomePageContent": {
+      "title": "Home Page Content", "type": "object", "description": "All editable content for the Home page.",
+      "properties": {
+        "hero": {
+          "type": "object",
+          "properties": {
+            "titleLine1": { "type": "string" }, "titleLine2": { "type": "string" },
+            "subtitle": { "type": "string" }, "cta1": { "type": "string" }, "cta2": { "type": "string" },
+            "headerImageUrl": { "type": "string", "format": "uri" }
+          }
+        },
+        "portfolio": {
+          "type": "object",
+          "properties": {
+            "title": { "type": "string" }, "subtitle": { "type": "string" },
+            "cards": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "icon": { "type": "string" }, "category": { "type": "string" },
+                  "items": { "type": "array", "items": { "type": "string" } }
+                }
+              }
+            }
+          }
+        },
+        "whyChooseUs": {
+          "type": "object",
+          "properties": {
+            "title": { "type": "string" }, "subtitle": { "type": "string" },
+            "features": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "icon": { "type": "string" }, "title": { "type": "string" }, "description": { "type": "string" }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "auth": { "providers": ["password"] },
+  "firestore": {
+    "/productCategories/{categoryId}": { "schema": { "$ref": "#/entities/ProductCategory" }, "description": "Stores all product categories." },
+    "/products/{productId}": { "schema": { "$ref": "#/entities/Product" }, "description": "Stores all product information." },
+    "/blogs/{blogId}": { "schema": { "$ref": "#/entities/BlogPost" }, "description": "Stores individual blog posts." },
+    "/pages/about": { "schema": { "$ref": "#/entities/AboutPageContent" }, "description": "Singleton document for the About Us page content." },
+    "/pages/quality": { "schema": { "$ref": "#/entities/QualityPageContent" }, "description": "Singleton document for the Quality page content." },
+    "/pages/services": { "schema": { "$ref": "#/entities/ServicesPageContent" }, "description": "Singleton document for the Services page content." },
+    "/pages/home": { "schema": { "$ref": "#/entities/HomePageContent" }, "description": "Singleton document for the Home page content." },
+    "/settings/admin": { "schema": { "$ref": "#/entities/AdminSettings" }, "description": "Singleton document for admin panel settings." },
+    "/settings/website": { "schema": { "$ref": "#/entities/WebsiteSettings" }, "description": "Singleton document for public website settings." },
+    "/settings/footer": { "schema": { "$ref": "#/entities/FooterSettings" }, "description": "Singleton document for public website footer settings." }
+  }
+}

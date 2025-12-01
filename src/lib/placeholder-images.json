@@ -1,52 +1,166 @@
 {
   "placeholderImages": [
     {
-      "id": "hero-background",
-      "description": "Abstract blue and green background representing healthcare and innovation.",
-      "imageUrl": "https://images.unsplash.com/photo-1579684256060-d5a308109e21?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxhYnN0cmFjdCUyMGxhYm9yYXRvcnl8ZW58MHx8fHwxNzYzMjc2OTY2fDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "abstract laboratory"
+      "id": "hero-product",
+      "description": "Abstract network of molecules.",
+      "imageUrl": "https://storage.googleapis.com/gweb-aip-dev.appspot.com/workplace-assets/v1/projects/studio-app-user-project/files/hero-product.webp",
+      "imageHint": "molecules network"
     },
     {
-      "id": "about-us-image",
-      "description": "Image of a modern pharmaceutical research lab.",
-      "imageUrl": "https://images.unsplash.com/photo-1599652749620-e45b7f38988e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8cmVzZWFyY2glMjBsYWJ8ZW58MHx8fHwxNzYzMjE5MDU5fDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "research lab"
+      "id": "paracetamol-bottle",
+      "description": "A glass jar containing paracetamol powder with a label.",
+      "imageUrl": "https://storage.googleapis.com/gweb-aip-dev.appspot.com/workplace-assets/v1/projects/studio-app-user-project/files/paracetamol_bottle.jpg",
+      "imageHint": "paracetamol powder"
     },
     {
-      "id": "product-tablet",
-      "description": "Close-up of pharmaceutical tablets.",
-      "imageUrl": "https://images.unsplash.com/photo-1587854680352-936b22b91030?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8cGlsbHN8ZW58MHx8fHwxNzYzMzE5MTY1fDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "pills"
+      "id": "about-us",
+      "description": "Modern laboratory or research facility",
+      "imageUrl": "https://images.unsplash.com/photo-1707944745860-4615eb585a41?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxsYWJvcmF0b3J5JTIwcmVzZWFyY2h8ZW58MHx8fHwxNzYzMzYzMzA5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "laboratory research"
     },
     {
-      "id": "product-capsule",
-      "description": "Close-up of pharmaceutical capsules.",
-      "imageUrl": "https://images.unsplash.com/photo-1702353531290-8fe0bfbf2732?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxjYXBzdWxlc3xlbnwwfHx8fDE3NjMzMTkxNjR8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "capsules"
+      "id": "quality",
+      "description": "Scientist in a lab coat inspecting samples",
+      "imageUrl": "https://images.unsplash.com/photo-1691935152210-35ae500d91d7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxzY2llbnRpc3QlMjBxdWFsaXR5fGVufDB8fHx8fDE3NjMzODgyNDl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "scientist quality"
     },
     {
-      "id": "product-syrup",
-      "description": "Bottle of liquid medicine.",
-      "imageUrl": "https://images.unsplash.com/photo-1562243061-204550d8a2c9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxtZWRpY2luZSUyMGJvdHRsZXxlbnwwfHx8fDE3NjMyMjAzMjN8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "medicine bottle"
+      "id": "services",
+      "description": "Global logistics and shipping containers",
+      "imageUrl": "https://images.unsplash.com/photo-1761157993779-c433f6d4d350?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxnbG9iYWwlMjBsb2dpc3RpY3N8ZW58MHx8fHwxNzYzMzg4MjQ5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "global logistics"
     },
     {
-      "id": "quality-control",
-      "description": "Scientist working in a quality control lab.",
-      "imageUrl": "https://images.unsplash.com/photo-1742206594477-15139139c0df?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxzY2llbnRpc3QlMjBtaWNyb3Njb3BlfGVufDB8fHx8MTc2MzMxOTE2NHww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "scientist microscope"
+      "id": "api-product",
+      "description": "Close-up of white pharmaceutical powders",
+      "imageUrl": "https://images.unsplash.com/photo-1658848437792-3255618874b5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxwaGFybWFjZXV0aWNhbCUyMHBvd2RlcnxlbnwwfHx8fDE3NjMzODgyNDl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "pharmaceutical powder"
     },
     {
-      "id": "career-team",
-      "description": "Diverse group of professionals in a meeting.",
-      "imageUrl": "https://images.unsplash.com/photo-1603201667141-5a2d4c673378?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxvZmZpY2UlMjB0ZWFtfGVufDB8fHx8MTc2MzIzNzc2MHww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "office team"
+      "id": "excipient-product",
+      "description": "Close-up of microcrystalline cellulose powder",
+      "imageUrl": "https://images.unsplash.com/photo-1586137712370-9b450509c587?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxNXx8d2hpdGUlMjBwaGFybWFjZXV0aWNhbCUyMHBvd2RlcnxlbnwwfHx8fDE3ODY2MDU3Njh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "cellulose powder"
     },
     {
-      "id": "contact-map",
-      "description": "Stylized map pointing to Nagpur, Maharashtra.",
-      "imageUrl": "https://images.unsplash.com/photo-1532154078493-c1c3eef2023c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxtYXAlMjBsb2NhdGlvbnxlbnwwfHx8fDE3NjMyODkyMzh8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "map location"
+      "id": "excipient-powder",
+      "description": "Close-up of croscarmellose sodium powder",
+      "imageUrl": "https://images.unsplash.com/photo-1617886322207-6f504e7472c5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyMHx8d2hpdGUlMjBwaGFybWFjZXV0aWNhbCUyMHBvd2RlcnxlbnwwfHx8fDE3ODY2MDU4MjR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "sodium powder"
+    },
+    {
+      "id": "stearate-product",
+      "description": "Fine white magnesium stearate powder",
+      "imageUrl": "https://images.unsplash.com/photo-1586137712370-9b450509c587?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHx3aGl0ZSUyMHBvd2RlcnxlbnwwfHx8fDE3NjMyOTI4NTJ8MA&ixlibrb-4.1.0&q=80&w=1080",
+      "imageHint": "white powder"
+    },
+    {
+      "id": "mineral-product",
+      "description": "Pile of white calcium carbonate powder",
+      "imageUrl": "https://images.unsplash.com/photo-1589013063515-728795777478?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxjYWxjaXVtJTIwcG93ZGVyfGVufDB8fHx8MTc4NjYwNTk0NHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "calcium powder"
+    },
+    {
+      "id": "antacid-product",
+      "description": "Antacid tablets in a row",
+      "imageUrl": "https://images.unsplash.com/photo-1629851683416-527e0259b343?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxhbnRhY2lkJTIwdGFibGV0c3xlbnwwfHx8fDE3NjMzODgyNDl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "antacid tablets"
+    },
+    {
+      "id": "antacid-powder",
+      "description": "White aluminium hydroxide powder in a scoop.",
+      "imageUrl": "https://images.unsplash.com/photo-1617886322207-6f504e7472c5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyMHx8d2hpdGUlMjBwaGFybWFjZXV0aWNhbCUyMHBvd2RlcnxlbnwwfHx8fDE3ODY2MDU4MjR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "hydroxide powder"
+    },
+    {
+      "id": "magnesium-hydroxide-powder",
+      "description": "White magnesium hydroxide powder in a bowl.",
+      "imageUrl": "https://images.unsplash.com/photo-1586137712370-9b450509c587?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHx3aGl0ZSUyMHBvd2RlcnxlbnwwfHx8fDE3NjMyOTI4NTJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "hydroxide powder"
+    },
+    {
+      "id": "blog-supply-chain",
+      "description": "Illustration of a global supply chain network",
+      "imageUrl": "https://images.unsplash.com/photo-1634638022845-1ab614a94128?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxzdXBwbHklMjBjaGFpbnxlbnwwfHx8fDE3NjMzOTE4MDN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "supply chain"
+    },
+    {
+      "id": "blog-excipients-trends",
+      "description": "A futuristic laboratory setting with glowing chemical structures.",
+      "imageUrl": "https://images.unsplash.com/photo-1758653500015-e97176428d46?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxwaGFybWFjZXV0aWNhbCUyMGlubm92YXRpb258ZW58MHx8fHwxNzYzNDc0MTAyfDA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageHint": "pharmaceutical innovation"
+    },
+    {
+      "id": "blog-quality-control",
+      "description": "A magnifying glass focusing on a detailed quality check document.",
+      "imageUrl": "https://images.unsplash.com/photo-1582560486381-e6a01d8f5bb7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8cXVhbGl0eSUyMGNvbnRyb2x8ZW58MHx8fHwxNzYzNDUzNjMwfDA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageHint": "quality control"
+    },
+    {
+      "id": "propafenone-bottle",
+      "description": "A bottle of Propafenone HCI.",
+      "imageUrl": "https://storage.googleapis.com/gweb-aip-dev.appspot.com/workplace-assets/v1/projects/studio-app-user-project/files/propafenone-hcl_pills.jpg",
+      "imageHint": "propafenone pills"
+    },
+    {
+      "id": "pregabalin-bottle",
+      "description": "A white bottle with a label that reads PREGABALIN, containing a white powder.",
+      "imageUrl": "https://storage.googleapis.com/gweb-aip-dev.appspot.com/workplace-assets/v1/projects/studio-app-user-project/files/pregabalin-bottle.jpg",
+      "imageHint": "pregabalin powder"
+    },
+    {
+      "id": "ibuprofen-pills",
+      "description": "Ibuprofen pills in a blister pack.",
+      "imageUrl": "https://images.unsplash.com/photo-1628771065518-1d3c907d7c6e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxJYnVwcm9mZW4lMjBwaWxsc3xlbnwwfHx8fDE3ODY2MDIzODR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "ibuprofen pills"
+    },
+    {
+      "id": "ritonavir-pills",
+      "description": "Close up of Ritonavir pills.",
+      "imageUrl": "https://images.unsplash.com/photo-1631591919483-a9d9e6834a81?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxIViUyMHBpbGxzfGVufDB8fHx8MTc4NjYwMjY0Nnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "antiviral pills"
+    },
+    {
+      "id": "metformin-pills",
+      "description": "Metformin pills in a bottle.",
+      "imageUrl": "https://images.unsplash.com/photo-1631591924535-a67459313014?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxtZXRmb3JtaW4lMjBwaWxsc3xlbnwwfHx8fDE3ODY2MDI4NTB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "diabetes medication"
+    },
+    {
+      "id": "atorvastatin-pills",
+      "description": "Atorvastatin pills in a pile.",
+      "imageUrl": "https://images.unsplash.com/photo-1607619056574-7d8d3ee536b2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjaG9sZXN0ZXJvbCUyMG1lZGljYXRpb258ZW58MHx8fHwxNzg2NjAzMDMyfDA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageHint": "cholesterol pills"
+    },
+    {
+      "id": "nimorazole-pills",
+      "description": "Nimorazole tablets in a row.",
+      "imageUrl": "https://images.unsplash.com/photo-1584515933411-9c84758d5162?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxhbnRpYmlvdGljJTIwdGFibGV0c3xlbnwwfHx8fDE3ODY2MDMxNDV8MA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageHint": "antibiotic tablets"
+    },
+    {
+      "id": "naftopidil-pills",
+      "description": "A hand holding Naftopidil pills.",
+      "imageUrl": "https://images.unsplash.com/photo-1628771065399-9a254aa7a030?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxwcm9zdGF0ZSUyMG1lZGljYXRpb258ZW58MHx8fHwxNzg2NjAzMjMyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "prostate medication"
+    },
+    {
+      "id": "meclizine-pills",
+      "description": "Meclizine pills on a white background.",
+      "imageUrl": "https://images.unsplash.com/photo-1628771065518-1d3c907d7c6e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxtb3Rpb24lMjBzaWNrbmVzcyUyMHBpbGxzfGVufDB8fHx8MTc4NjYwMzM1NHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "motion sickness"
+    },
+    {
+      "id": "minoxidil-bottle",
+      "description": "A bottle of Minoxidil with a dropper.",
+      "imageUrl": "https://images.unsplash.com/photo-1622225439363-35f812ed3b9a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxtaW5veGlkaWwlMjBzb2x1dGlvbnxlbnwwfHx8fDE3ODY2MDM0NDZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "hair growth"
+    },
+    {
+      "id": "minoxidil-powder",
+      "description": "A glass jar containing Minoxidil powder.",
+      "imageUrl": "https://storage.googleapis.com/gweb-aip-dev.appspot.com/workplace-assets/v1/projects/studio-app-user-project/files/minoxidil.jpg",
+      "imageHint": "minoxidil powder"
     }
   ]
 }
